@@ -1,0 +1,53 @@
+{
+  "name": "skill-pilot",
+  "version": "0.1.0",
+  "description": "Detect your project's stack and install audited AI agent skills with one command",
+  "keywords": [
+    "ai",
+    "agent",
+    "skills",
+    "claude-code",
+    "cline",
+    "kiro",
+    "cli",
+    "detect"
+  ],
+  "license": "MIT",
+  "author": "Yasin",
+  "homepage": "https://github.com/hiyasin/skill-pilot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiyasin/skill-pilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hiyasin/skill-pilot/issues"
+  },
+  "type": "module",
+  "bin": {
+    "skill-pilot": "bin.mjs"
+  },
+  "files": [
+    "bin.mjs",
+    "dist/",
+    "registry/index.json"
+  ],
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "build": "node scripts/clean.mjs && tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --disable-warning=ExperimentalWarning --test \"test/**/*.test.ts\"",
+    "dev": "node --experimental-strip-types --disable-warning=ExperimentalWarning src/cli.ts",
+    "sync:skills": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/sync-skills.ts",
+    "new-skill": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/new-skill.ts",
+    "validate:registry": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/validate-registry.ts",
+    "release": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/release.ts",
+    "set-meta": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/set-meta.ts",
+    "prepublishOnly": "npm run validate:registry && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.3",
+    "typescript": "5.8.3"
+  }
+}

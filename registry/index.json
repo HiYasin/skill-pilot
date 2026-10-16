@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-16T04:01:07.785Z",
+  "skills": {
+    "docker-node-images": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/docker-node-images",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "e0383bcd2ccbe0c33b73198d05ef08216fc51bd10f319d8a1fe6a1411453a83a"
+      },
+      "bundleHash": "77992e00fa4677e5d91cfe62ac94d4dc2546e5394ef720206c6dbf3468c75445",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.108Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "docker"
+        ],
+        "all": []
+      }
+    },
+    "express-api-design": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/express-api-design",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "6c3fc371630c729c9f90b2d1ddf486c7df03d2c6f47bb3d035dabc82b7955d0a"
+      },
+      "bundleHash": "bb7490c777a0b00b836b6855d3b6e7701dfc31e7dda9040580890dd786c039df",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.112Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "express"
+        ],
+        "all": []
+      }
+    },
+    "frontend-design": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/frontend-design",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "a84cacbd2aa68e342f51d35c13db235b52d0ac18da26407e588895f09a765516"
+      },
+      "bundleHash": "7047e29400d64242549b4d0f632c730c247d83f847368093c492a637d8ddccf4",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.113Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "web-frontend"
+        ],
+        "all": []
+      }
+    },
+    "nestjs-architecture": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/nestjs-architecture",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "9e10087a47e17cce2c0ccd2dc5b2eb53a0c7e788353e93389feb774eb19cf647"
+      },
+      "bundleHash": "82c87dff99501b58227b0088c63150066cc38e7bd330d3ec4dac8607d9e5dd4f",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.114Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "nestjs"
+        ],
+        "all": []
+      }
+    },
+    "nestjs-prisma-integration": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/nestjs-prisma-integration",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "a581360d2cd40c828f2ffdf61063c97ed4622114be4008ff9d1f22ee575e5094"
+      },
+      "bundleHash": "14e3d41709a987672e1347f58d92e8e1e1f9eca6d9ddb73597f45094bf4fb67e",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.116Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [],
+        "all": [
+          "nestjs",
+          "prisma"
+        ]
+      }
+    },
+    "nextjs-app-router": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/nextjs-app-router",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "ae96b8c28710c494440048eb2f72666a7508609748de819e6261c77f02002ef2"
+      },
+      "bundleHash": "57009c41cc5d18d7b9527c69190377e8957dbbbe6065a7c998ce618aea18283b",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.117Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "nextjs"
+        ],
+        "all": []
+      }
+    },
+    "nextjs-prisma-data-layer": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/nextjs-prisma-data-layer",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "28f0fe908b3a3fc7430808520f6aa497ffea4d50928c140ed269302d35aa94b2"
+      },
+      "bundleHash": "1cd41fd7785cc1c2a2d1a9ff503c43d88b4275a80a8b05bc2ff88bd82d3b60f2",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.118Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [],
+        "all": [
+          "nextjs",
+          "prisma"
+        ]
+      }
+    },
+    "node-runtime-practices": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/node-runtime-practices",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "159dd9169c0eda904010c945c06b8471c2a28721328f79de6ab7608964b38c33"
+      },
+      "bundleHash": "1ef69b41877d7ce730fa2089900e8bd39e382bc0dd7d86981027e02be70e4dbb",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.119Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "nodejs"
+        ],
+        "all": []
+      }
+    },
+    "postgresql-practices": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/postgresql-practices",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "b0a031e8a0ab02897c29d85faf49c53fd9d070de44088fb9454384a3dc93024d"
+      },
+      "bundleHash": "dfb50e19058f5716800b576f00cd3506ab214c447126b09c5fe012510a729c3b",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.120Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "postgresql"
+        ],
+        "all": []
+      }
+    },
+    "prisma-schema-and-queries": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/prisma-schema-and-queries",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "fed010bf7c48f33f5d6fb68d4cde60eef53f633aeac15b4267841f4140a42292"
+      },
+      "bundleHash": "e2a9d1d7c4c287d90347d7957b2299336c5ee64071db0b255da7ec78a2b5c859",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.121Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "prisma"
+        ],
+        "all": []
+      }
+    },
+    "react-component-patterns": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/react-component-patterns",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "b54a3faf757bbe6fb3c3b5f13e8089ea671ea08beb4c683fc02c817007618ab1"
+      },
+      "bundleHash": "a9c5cd89ddd923185b9bd7ba4ea479076e1214e90e7ab5180a592ab57c2d2fbf",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.123Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "react"
+        ],
+        "all": []
+      }
+    },
+    "react-hook-form-zod": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/react-hook-form-zod",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "1751d8effbb31f1baf31044329dec7818f7b7089b65014d03a877a2407a4e21c"
+      },
+      "bundleHash": "e8b4ad1987e2d6a3913f8288ff2626f02ea6e188b70ed90087e455562deb0e43",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.123Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [],
+        "all": [
+          "react-hook-form",
+          "zod"
+        ]
+      }
+    },
+    "tailwind-css-conventions": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/tailwind-css-conventions",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "080a4f3627790541043c3a35ab29b05b2b324f55bf3aa0acc54f5ce5d8b3a25b"
+      },
+      "bundleHash": "8e8589d9f36a0947f69db4f03ce52c07c88f1cd0caa71764499ba45963b9a93e",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.124Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "tailwind"
+        ],
+        "all": []
+      }
+    },
+    "typescript-strict-patterns": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/typescript-strict-patterns",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "945aabeab95632de9ec647cb4b60597d819a4d76c98157d3e0e5e91b2e7c2ef6"
+      },
+      "bundleHash": "8913fa43ccbf7ed0e2dd22de170299757f558dba6cbd5eac3bc73f8e2a320712",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.125Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "typescript"
+        ],
+        "all": []
+      }
+    },
+    "vitest-testing": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/vitest-testing",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "c4c444fe05b2137ba7162406a4330c7787be8963834a7b52467a82e5f6dc8311"
+      },
+      "bundleHash": "971f10b86100d5bad0faa1ac3f7f2178aa6ade01880ffe4d0e3e0434ce56adcc",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.127Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "vitest"
+        ],
+        "all": []
+      }
+    },
+    "web-accessibility": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/web-accessibility",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "1b6bd1e8fe8f0fc8ee1c11cca3b005e9d9c8a00ae980d23d160b2c942b14e960"
+      },
+      "bundleHash": "7ae84cbaae012ff9395b660d1458bf73ab656d026929c22d2481191150443d59",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.129Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "web-frontend"
+        ],
+        "all": []
+      }
+    },
+    "web-seo-basics": {
+      "source": "hiyasin/skill-pilot",
+      "skillPath": "hiyasin/skill-pilot/web-seo-basics",
+      "commitSha": "local",
+      "license": "MIT",
+      "files": [
+        "SKILL.md"
+      ],
+      "sha256": {
+        "SKILL.md": "c26c248fbc6b1afaa9eb39b3e2048bf585a0b3990dc37bc7d44e504ed637f988"
+      },
+      "bundleHash": "b836036805aeb1db88130349f0b62e72c60a1d5beb06d8bb0a608d7756289942",
+      "review": {
+        "model": "none",
+        "promptVersion": "1.0.0",
+        "reviewedAt": "2026-10-15T13:35:50.131Z",
+        "status": "approved",
+        "flags": [],
+        "summary": "Review skipped (--no-review)."
+      },
+      "targets": {
+        "any": [
+          "web-frontend"
+        ],
+        "all": []
+      }
+    }
+  }
+}

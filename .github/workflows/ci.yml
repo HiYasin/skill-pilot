@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Typecheck, test, validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run validate:registry
+      - run: npm run build
+
+      - name: Check package contents
+        run: |
+          npm pack --dry-run 2>&1 | tee pack.txt
+          if grep -q "registry/skills/" pack.txt; then
+            echo "::error::registry/skills must not be shipped in the npm package"; exit 1
+          fi

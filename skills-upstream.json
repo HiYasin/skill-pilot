@@ -1,0 +1,5 @@
+{
+  "$comment": "Skills from other people's GitHub repos. Key: owner/repo/skill-folder (the folder that holds SKILL.md). Value: { \"stack-any\": \"react\" } or { \"stack-all\": \"nextjs, supabase\" }. Then run: npm run sync:skills -- --only <skill-folder>. See docs/ADDING-SKILLS.md.",
+  "vercel/next.js/next-bundle-optimizer": { "stack-any": "nextjs" },
+  "vercel/next.js/next-dev-loop": { "stack-any": "nextjs" }
+}

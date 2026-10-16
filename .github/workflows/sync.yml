@@ -1,0 +1,56 @@
+name: Sync skills
+
+# Weekly (or on demand): pull upstream skills, review them with Claude, and
+# open a pull request with the registry changes so a human approves them.
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+
+      - name: Sync registry
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run sync:skills || echo "SYNC_HAD_ERRORS=1" >> "$GITHUB_ENV"
+
+      - run: npm run validate:registry
+
+      - name: Open pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- registry; then
+            echo "Registry unchanged."; exit 0
+          fi
+          BRANCH="sync/skills-$(date +%Y%m%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add registry
+          git commit -m "chore(registry): sync skills"
+          git push origin "$BRANCH"
+          {
+            echo "Automated registry sync. Review every changed SKILL.md before merging."
+            echo
+            echo '```json'
+            cat scripts/sync-report.json
+            echo '```'
+          } > body.md
+          gh pr create --title "chore(registry): sync skills" --body-file body.md --base main --head "$BRANCH"
