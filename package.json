@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/hiyasin/skill-pilot.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/hiyasin/skill-pilot/issues"
   },
