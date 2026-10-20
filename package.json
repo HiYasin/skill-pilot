@@ -1,5 +1,5 @@
 {
-  "name": "skill-pilot",
+  "name": "@hiyasin/skill-pilot",
   "version": "0.1.0",
   "description": "Detect your project's stack and install audited AI agent skills with one command",
   "keywords": [

@@ -3,7 +3,7 @@
 **One command. The right AI agent skills for your stack.**
 
 ```bash
-npx skill-pilot
+npx @hiyasin/skill-pilot
 ```
 
 `skill-pilot` scans your project, detects the technologies you use, and installs matching agent skills (`SKILL.md` folders) for Claude Code, Cline, Junie, CodeBuddy, Continue, Kiro and any agent that reads `.agents/skills`. Every file is checked against a SHA-256 manifest before it is written.
